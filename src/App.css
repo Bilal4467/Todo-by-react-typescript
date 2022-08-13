@@ -39,7 +39,7 @@ body {
 
 .header button {
   width: 70px;
-  height: 87px;
+  height: 79px;
   border: none;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
@@ -58,12 +58,13 @@ body {
 
 .task {
   width: 500px;
-  height: 50px;
+  /* height: 50px; */
+  min-height: 50px;
   display: flex;
   color: white;
   margin: 15px;
 }
-
+ 
 .task .content {
   flex: 80%;
   height: 100%;
@@ -81,6 +82,8 @@ body {
   font-size: 18px;
   border-right: none;
   background-color: tomato;
+  padding: 0 10px;
+
 }
 
 .task button {
